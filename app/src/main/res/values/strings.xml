@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="mimblu">mimblu</string>
+    <string name="logout">Logout</string>
+    <string name="heading1">What led you to Mimblu Today?</string>
+    <string name="heading2">Help us find you the best selection of counsellors to choose from</string>
+    <string name="buttonText">Show Me My Matches</string>
+    <string name="selected_items">Selected Items:</string>
+</resources>
