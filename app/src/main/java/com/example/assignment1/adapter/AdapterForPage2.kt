@@ -2,6 +2,7 @@ package com.example.assignment1.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.assignment1.databinding.ItemViewBinding
 import com.example.assignment1.databinding.ItemViewForPage2Binding
@@ -29,5 +30,8 @@ class AdapterForPage2(var list: List<Id>) : RecyclerView.Adapter<AdapterForPage2
         holder.itemViewForPage2Binding.videoDescription.text=data.video_description
         holder.itemViewForPage2Binding.description.text=data.description
         holder.itemViewForPage2Binding.currencyCode.text=data.currency_code
+        holder.itemViewForPage2Binding.continueButton.setOnClickListener{
+            Toast.makeText(holder.itemView.context,"Continue",Toast.LENGTH_SHORT).show()
+        }
     }
 }

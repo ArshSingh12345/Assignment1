@@ -3,6 +3,7 @@ package com.example.assignment1.page1Activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.lifecycleScope
@@ -30,8 +31,10 @@ class MainActivity : AppCompatActivity() {
         updateButtonState()
         mBinding.button.setOnClickListener {
             showSelectedData()
+            Toast.makeText(this,"Your Selected Items", Toast.LENGTH_SHORT).show()
         }
         mBinding.linearLayout.setOnClickListener {
+            Toast.makeText(this,"Page 2",Toast.LENGTH_SHORT).show()
             val intent = Intent(this@MainActivity, ActivityForPage2::class.java)
             startActivity(intent)
         }
