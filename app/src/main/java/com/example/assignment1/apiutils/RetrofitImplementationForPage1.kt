@@ -1,4 +1,4 @@
-package com.example.assignment1.apiutils1forpage1
+package com.example.assignment1.apiutils
 
 import com.example.assignment1.interfacepackage.ApiInterfaceForPage1
 import retrofit2.Retrofit

@@ -6,4 +6,16 @@
     <string name="heading2">Help us find you the best selection of counsellors to choose from</string>
     <string name="buttonText">Show Me My Matches</string>
     <string name="selected_items">Selected Items:</string>
+    <string name="heading3">Pick your plan to continue</string>
+    <string name="heading4">Mimblu is up to 5x cheaper than in-person therapy</string>
+    <string name="mimblu_lite">mimblu lite</string>
+    <string name="mimblu_plus">mimblu PLUS</string>
+    <string name="mimblu_live">mimblu LIVE</string>
+    <string name="text_video">Text+Video</string>
+    <string name="continue_text">CONTINUE</string>
+    <string name="inr">INR</string>
+    <string name="days">Days</string>
+    <string name="with_this_plan">WITH THIS PLAN!</string>
+    <string name="_1501">1501</string>
+    <string name="you_save_inr">YOU SAVE INR</string>
 </resources>

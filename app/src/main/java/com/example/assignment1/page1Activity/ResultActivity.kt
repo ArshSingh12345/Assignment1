@@ -1,10 +1,10 @@
-package com.example.assignment1
+package com.example.assignment1.page1Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.example.assignment1.R
 import com.example.assignment1.databinding.ActivityResultBinding
-import com.example.assignment1.databinding.ItemViewBinding
 import com.example.assignment1.dataforpage1.Id
 
 class ResultActivity : AppCompatActivity() {
